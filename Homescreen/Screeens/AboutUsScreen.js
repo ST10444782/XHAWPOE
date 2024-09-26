@@ -23,7 +23,7 @@ const AboutUsScreen = () => {
           Empowering the Nation was established in 2018 and offers courses in Johannesburg. Hundreds of domestic workers and gardeners have been trained on both the six-month long Learnerships and six-week Short Skills Training Programmes to empower themselves and provide more marketable skills.
         </Text>
         <Image
-          source={{ uri: 'https://example.com/history_image.png' }} // Replace with your image URI
+          source={{ uri: 'Images/WorldIllustration.png' }} // Replace with your image URI
           style={styles.image}
         />
       </View>
@@ -35,7 +35,7 @@ const AboutUsScreen = () => {
           Our mission at Empowering the Nation is to uplift and transform the lives of domestic workers and gardeners by providing them with high-quality, accessible skills training.
         </Text>
         <Image
-          source={{ uri: 'https://example.com/mission_image.png' }} // Replace with your image URI
+          source={{ uri: 'Images/Manimage.png' }} // Replace with your image URI
           style={styles.image}
         />
       </View>
@@ -47,7 +47,7 @@ const AboutUsScreen = () => {
           Our vision at Empowering the Nation is to become the leading provider of skills training for domestic workers and gardeners in South Africa. We aim to empower individuals to achieve economic independence, elevate their standards of living, and inspire a new generation of skilled professionals who contribute positively to society.
         </Text>
         <Image
-          source={{ uri: 'https://example.com/vision_image.png' }} // Replace with your image URI
+          source={{ uri: 'Images/Excellence.png' }} // Replace with your image URI
           style={styles.image}
         />
       </View>
@@ -57,21 +57,21 @@ const AboutUsScreen = () => {
         <Text style={styles.mainHeader}>Our Values</Text>
         <View style={styles.valueBox}>
           <Image
-            source={{ uri: 'https://example.com/excellence_image.png' }} // Replace with your image URI
+            source={{ uri: 'Images/Community.png' }} // Replace with your image URI
             style={styles.valueImage}
           />
           <Text style={styles.valueText}>Excellence</Text>
         </View>
         <View style={styles.valueBox}>
           <Image
-            source={{ uri: 'https://example.com/community_image.png' }} // Replace with your image URI
+            source={{ uri: '' }} 
             style={styles.valueImage}
           />
           <Text style={styles.valueText}>Community</Text>
         </View>
         <View style={styles.valueBox}>
           <Image
-            source={{ uri: 'https://example.com/integrity_image.png' }} // Replace with your image URI
+            source={{ uri: 'https://example.com/integrity_image.png' }} 
             style={styles.valueImage}
           />
           <Text style={styles.valueText}>Integrity</Text>
